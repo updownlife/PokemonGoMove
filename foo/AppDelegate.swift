@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         print("Play silent sound and reset remaining time")
         
-        let soundFilePath = NSURL(string: NSBundle.mainBundle().pathForResource("background", ofType: "mp3")!)!
+        let soundFilePath = NSURL(string: NSBundle.mainBundle().pathForResource("silent", ofType: "mp3")!)!
         
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, withOptions: AVAudioSessionCategoryOptions.MixWithOthers)

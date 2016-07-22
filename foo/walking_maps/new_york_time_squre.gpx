@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="mapstogpx.com" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.mapstogpx.com">
+      <text>Sverrir Sigmundarson</text>
+    </link>
+    <!--desc>Map data copyright 2016 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2016</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/40.7770273,-73.9637164/40.7820396,-73.9717219/40.7916554,-73.9647165/40.7879034,-73.9557794/40.7770491,-73.9636947/@40.7801916,-73.9698757,14z/data=!4m2!4m1!3e2?hl=en</url-->
+    <time>2016-07-10T20:24:36Z</time>
+  </metadata>
+  <wpt lat="40.7770348" lon="-73.963704">
+    <name>975 5th Ave</name>
+    <desc>975 5th Ave, New York, NY 10075, USA</desc>
+  </wpt>
+  <wpt lat="40.7770348" lon="-73.963704">
+    <name>WP001</name>
+    <time>2010-01-01T00:00:00Z</time>
+  </wpt>
+  <wpt lat="40.7820396" lon="-73.9717219">
+    <name>WP002</name>
+    <time>2010-01-01T00:04:00Z</time>
+  </wpt>
+  <wpt lat="40.792382" lon="-73.964202">
+    <name>WP003</name>
+    <time>2010-01-01T00:10:00Z</time>
+  </wpt>
+  <wpt lat="40.788450" lon="-73.956477">
+    <name>WP004</name>
+    <time>2010-01-01T00:14:00Z</time>
+  </wpt>
+  <wpt lat="40.7770349" lon="-73.963705">
+    <name>977 5th Ave</name>
+    <time>2010-01-01T00:20:00Z</time>
+    <desc>977 5th Ave, New York, NY 10075, USA</desc>
+  </wpt>
+</gpx>

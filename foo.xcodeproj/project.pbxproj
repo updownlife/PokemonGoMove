@@ -13,7 +13,8 @@
 		96E419171D34EDF500C8EBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E419151D34EDF500C8EBBD /* Main.storyboard */; };
 		96E419191D34EDF500C8EBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E419181D34EDF500C8EBBD /* Assets.xcassets */; };
 		96E4191C1D34EDF500C8EBBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E4191A1D34EDF500C8EBBD /* LaunchScreen.storyboard */; };
-		D269C1211D41DE82004B0C32 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D269C1201D41DE82004B0C32 /* background.mp3 */; };
+		D2CF3BFE1D42E6E80034EA5C /* silent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2CF3BFD1D42E6E80034EA5C /* silent.mp3 */; };
+		D2E5E4101D42E9C0006A587D /* walking_maps in Resources */ = {isa = PBXBuildFile; fileRef = D2E5E40F1D42E9C0006A587D /* walking_maps */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		96E419181D34EDF500C8EBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96E4191B1D34EDF500C8EBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96E4191D1D34EDF500C8EBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D269C1201D41DE82004B0C32 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		D2CF3BFD1D42E6E80034EA5C /* silent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silent.mp3; sourceTree = "<group>"; };
+		D2E5E40F1D42E9C0006A587D /* walking_maps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = walking_maps; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +75,8 @@
 		D269C11D1D41C85F004B0C32 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D269C1201D41DE82004B0C32 /* background.mp3 */,
+				D2E5E40F1D42E9C0006A587D /* walking_maps */,
+				D2CF3BFD1D42E6E80034EA5C /* silent.mp3 */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,10 +146,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E4191C1D34EDF500C8EBBD /* LaunchScreen.storyboard in Resources */,
+				D2E5E4101D42E9C0006A587D /* walking_maps in Resources */,
 				96E419191D34EDF500C8EBBD /* Assets.xcassets in Resources */,
 				9680BB5D1D35EAD000F35220 /* PokemonLocation.gpx in Resources */,
-				D269C1211D41DE82004B0C32 /* background.mp3 in Resources */,
 				96E419171D34EDF500C8EBBD /* Main.storyboard in Resources */,
+				D2CF3BFE1D42E6E80034EA5C /* silent.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="mapstogpx.com" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.mapstogpx.com">
+      <text>Sverrir Sigmundarson</text>
+    </link>
+    <!--desc>Map data copyright 2016 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2016</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/37.3204131,-122.0461772/37.3208178,-122.0445839/@37.3206232,-122.0461479,18z/am=t/data=!3m1!4b1!4m2!4m1!3e2?hl=en</url-->
+    <time>2016-07-14T23:51:54Z</time>
+  </metadata>
+  <wpt lat="37.3204131" lon="-122.0461772">
+    <name>De Anza College Library</name>
+    <desc>De Anza College Library, Cupertino, CA 95014, USA</desc>
+    <time>2016-07-14T23:51:54Z</time>
+  </wpt>
+  <wpt lat="37.32041" lon="-122.04618">
+    <name>WP001</name>
+    <time>2016-07-14T23:52:09Z</time>
+  </wpt>
+  <wpt lat="37.32035" lon="-122.04618">
+    <name>WP002</name>
+    <time>2016-07-14T23:52:24Z</time>
+  </wpt>
+  <wpt lat="37.32035" lon="-122.04529">
+    <name>WP003</name>
+    <time>2016-07-14T23:52:39Z</time>
+  </wpt>
+  <wpt lat="37.32049" lon="-122.04522">
+    <name>WP004</name>
+    <time>2016-07-14T23:52:54Z</time>
+  </wpt>
+  <wpt lat="37.3208" lon="-122.04481">
+    <name>WP005</name>
+    <time>2016-07-14T23:53:09Z</time>
+  </wpt>
+  <wpt lat="37.32081" lon="-122.04477">
+    <name>WP006</name>
+    <time>2016-07-14T23:53:24Z</time>
+  </wpt>
+  <wpt lat="37.32082" lon="-122.04458">
+    <name>WP007</name>
+    <time>2016-07-14T23:53:39Z</time>
+  </wpt>
+  <wpt lat="37.3208178" lon="-122.0445839">
+    <name>F2</name>
+    <desc>F2, Cupertino, CA 95014, USA</desc>
+    <time>2016-07-14T23:53:54Z</time>
+  </wpt>
+</gpx>
