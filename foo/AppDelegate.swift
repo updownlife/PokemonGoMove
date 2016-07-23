@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import AudioToolbox
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -48,10 +49,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         print("Background time remaining: \(app.backgroundTimeRemaining)")
         
-        if app.backgroundTimeRemaining < 20 {
+        if app.backgroundTimeRemaining <= 15 {
+            // If it goes here, means playSound() failed to reset remaining time
+            // vibrating 5 times to warn user that GPS will be reset to real location in 15secs
+            // If user exit Pokemon Go in time, they will not be banned
+            vibrate(5)
+        }
+        
+        if app.backgroundTimeRemaining <= 30 {
+            // If remaining time < 30, play silent sound, reset remaining time to 180secs
+            // The lease value of remaining time should be larger than 20
             playSound()
         }
         
+    }
+    
+    func vibrate(num : integer_t) {
+        for _ in 1...num {
+            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+            sleep(1)
+        }
     }
     
     func playSound() {
